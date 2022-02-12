@@ -1,9 +1,7 @@
 #include<stdio.h>
-#include<conio.h>
 void main()
 {
     int a;
-    system("cls");
     printf("enter a number=");
     scanf("%d",&a);
     switch(a%2)
@@ -14,5 +12,4 @@ void main()
         break;
         default: printf("invalid input");
     }
-getch();
 }
