@@ -1,9 +1,7 @@
 #include<stdio.h>
-#include<conio.h>
 void main()
 {
     int a,b,c;
-    system("cls");
     printf("enter 2 numbers:");
     scanf("%d%d",&a,&b);
  printf("enter 1 for addition,2 for subtraction,3 for multiplication,4 for division and 5 for modulus=");
@@ -28,5 +26,4 @@ void main()
      default:
       printf("invalid input");
 }
-getch();
 }
