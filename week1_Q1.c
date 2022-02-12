@@ -1,11 +1,9 @@
 #include<stdio.h>
-#include<conio.h>
 void main()
 {
   
     int r;
     char n[20],br[20],h[100];
-    system("cls");
      printf("\nEnter name=");
      gets(n);
     printf("\nEnter branch=");
@@ -21,5 +19,4 @@ void main()
      puts(br);
      printf("\nhobbies=");
      puts(h);
-   getch(); 
 }
